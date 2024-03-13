@@ -250,8 +250,8 @@ function Pedido (mueble,variedad,largo,ancho,precio){
 //////////////////////////
 
 function convertirPrecioFinal(precioFinal){
-    //GET https://v6.exchangerate-api.com/v6/ac04a8d7076a6aa3ebaf55e6/pair/EUR/GBP/AMOUNT
-let urlConversion = `https://v6.exchangerate-api.com/v6/ac04a8d7076a6aa3ebaf55e6/pair/ARS/` //conversión
+    //GET https://v6.exchangerate-api.com/v6/ac04a8d7076a6aa3ebaf55e6/pair/EUR/GBP/AMOUNT //API key vence 14/03
+let urlConversion = `https://v6.exchangerate-api.com/v6/ddb4372b2a4bbb1110ee8667/pair/ARS/` //conversión
 let precio = precioFinal;
 contenedor2.innerHTML=""
 modalContainerCarrito.innerHTML=""
